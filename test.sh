@@ -5,5 +5,4 @@ while true
 do
     number=$(expr $min + $RANDOM % $max)
     notify-send "Petr Grussmann" "${arr[$number]}" --icon="icon.jpg"
-    sleep 1500s
 done
