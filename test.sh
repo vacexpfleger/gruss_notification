@@ -2,5 +2,5 @@ arr=("Postavil jsem sve dceri barak" "Doufam ze umis Cisco" "Sleduji te" "Dneska
 min=0
 max=14
 number=$(expr $min + $RANDOM % $max)
-notify-send "Petr Grussmann" "${arr[$number]}" --icon="icon.jpg"
+notify-send --icon="/home/student/gruss_notification/icon.jpg" "Petr Grussmann" "${arr[$number]}" --icon="icon.jpg"
 exit
